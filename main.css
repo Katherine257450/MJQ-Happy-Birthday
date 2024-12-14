@@ -1,0 +1,48 @@
+/* 設定網頁樣式 */
+body {
+    font-family: "Microsoft JhengHei", Arial, sans-serif;
+    background-image: url('background.jpg'); /* 背景圖片 */
+    background-size: cover; /* 覆蓋整個畫面 */
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    color: #800080; /* 紫色文字 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9); /* 半透明背景 */
+    border: 4px solid #ffd1dc;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+}
+
+h1, p {
+    color: #800080; /* 紫色文字 */
+    margin: 15px 0;
+}
+
+button {
+    margin-top: 20px; /* 增加間距讓按鈕和標題分開 */
+    background-color: #ff9eb3;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #ff7a8a;
+    transform: scale(1.05);
+}
