@@ -1,0 +1,53 @@
+/* 基本樣式 */
+body {
+    font-family: "Microsoft JhengHei", Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #800080;
+}
+
+/* 密碼模態視窗樣式 */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* 按鈕樣式 */
+button {
+    padding: 10px 20px;
+    background-color: #ff9eb3;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff7a8a;
+}
+
+/* 密碼錯誤提示樣式 */
+#password-error {
+    font-weight: bold;
+    margin-top: 20px;
+}

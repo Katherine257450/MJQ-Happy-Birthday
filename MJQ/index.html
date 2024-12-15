@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>馬嘉祺生日應援幸運籤活動</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- 密碼模態視窗 -->
+    <div id="passwordModal" class="modal">
+        <div class="modal-content">
+            <h2>歡迎來到嘉祺的魔法世界</h2>
+            <input type="password" id="passwordInput" placeholder="請輸入魔法咒語">
+            <button id="submitPassword">確認</button>
+        </div>
+    </div>
+
+    <!-- 密碼輸入錯誤提示 -->
+    <div id="password-error" style="display: none; color: red; text-align: center;">
+        密碼錯誤，請重新嘗試！
+    </div>
+
+    <!-- 密碼輸入完成後的活動內容 -->
+    <div id="fortune-container" style="display: none;">
+        <h1>馬嘉祺生日應援幸運籤活動</h1>
+        <button id="drawButton">抽籤</button>
+        <p id="result">請按抽籤按鈕！</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
